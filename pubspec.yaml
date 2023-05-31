@@ -1,0 +1,55 @@
+name: magenta
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  quiver: ^3.1.0
+  flutter_svg: 
+  flutter_svg_provider: 
+  url_launcher:
+  nb_utils: ^5.0.8
+  dio: ^4.0.6
+  get: ^4.6.5
+  print_color: ^3.0.5
+  dio_http_cache: ^0.3.0
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  json_to_model: # flutter pub run json_to_model
+    path: json_to_model_mutable
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+  fonts:
+    - family: Jost
+      fonts:
+        - asset: assets/fonts/jost/Jost-Black.ttf
+        - asset: assets/fonts/jost/Jost-BlackItalic.ttf
+        - asset: assets/fonts/jost/Jost-Bold.ttf
+        - asset: assets/fonts/jost/Jost-BoldItalic.ttf
+        - asset: assets/fonts/jost/Jost-ExtraBold.ttf
+        - asset: assets/fonts/jost/Jost-ExtraBoldItalic.ttf
+        - asset: assets/fonts/jost/Jost-ExtraLight.ttf
+        - asset: assets/fonts/jost/Jost-ExtraLightItalic.ttf
+        - asset: assets/fonts/jost/Jost-Italic.ttf
+        - asset: assets/fonts/jost/Jost-Light.ttf
+        - asset: assets/fonts/jost/Jost-LightItalic.ttf
+        - asset: assets/fonts/jost/Jost-Medium.ttf
+        - asset: assets/fonts/jost/Jost-MediumItalic.ttf
+        - asset: assets/fonts/jost/Jost-Regular.ttf
+        - asset: assets/fonts/jost/Jost-SemiBold.ttf
+        - asset: assets/fonts/jost/Jost-SemiBoldItalic.ttf
+        - asset: assets/fonts/jost/Jost-Thin.ttf
+        - asset: assets/fonts/jost/Jost-ThinItalic.ttf
